@@ -1,0 +1,39 @@
+body,
+html {
+  margin: 0;
+}
+
+.nav-container {
+  width: 100%;
+  background-color: #3f51b5;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.btn {
+  border-radius: 0.5rem;
+  border: 0px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.nav-btn {
+  background-color: azure;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.nav-btn:hover {
+  background-color: aqua;
+}
+
+.nav-btn-active {
+  background-color: aqua;
+}
+
+.main-container {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
